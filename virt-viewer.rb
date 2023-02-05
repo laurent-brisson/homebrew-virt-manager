@@ -22,6 +22,9 @@ class VirtViewer < Formula
   depends_on "shared-mime-info"
   depends_on "spice-gtk"
   depends_on "spice-protocol"
+  depends_on "pygobject3"
+  depends_on "libosinfo"
+  depends_on "gtksourceview"
 
   def install
     args = %W[
